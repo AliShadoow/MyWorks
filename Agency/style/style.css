@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+/* Body */
+body{
+    font-family: "IRANSans","Colaborate-Thin";
+    background-color: #fcfcfc;
+}
+/* ClearFix */
+.clear-fix{
+    clear: both;
+}
+/* Container */
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+/* Nav */
+nav{
+    width: 90%;
+    margin: 20px auto;
+}
+nav .menu{
+    display: inline-block;
+    float: right;
+}
+nav .menu li{
+    display: inline-block;
+    padding: 0 15px;
+}
+nav .menu li a{
+    text-decoration: none;
+    color: #444;
+    text-transform: uppercase;
+    font-family: "IRANSans";
+    font-weight: 100;
+    font-size: 12px;
+}
+nav .menu li a:hover{
+    color: #999;
+}
+nav span{
+    font-family: "IRANSans";
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 2px solid #333;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+/* main */
+.main{
+    width: 100%;
+    background-image: url("../style/images/HomeDesktopheader.jpg");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.main .main_subtitle{
+    margin: 0 auto;
+    padding: 100px;
+    text-align: center;
+    float: left;
+}
+.main .main_subtitle h1{
+    font-size: 40px;
+    color: #fcfcfc;
+}
+.subtitle{
+    color: #999;
+    font-size: 14px;
+}
+.title{
+    color: rgb(36, 170, 204);
+}
+/* contact */
+#contact{
+    width: 100%;
+}
+#contact .container .contact_feild{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 100;
+}
+#contact .container .contact_feild h2{
+    font-weight: 100;
+    font-family: "X Yekan";
+    padding: 10px;
+    font-size: 30px;
+    color: #444;
+}
+.contact_item .contact_item-img{
+    float: left;
+    width: 50%;
+}
+.contact_feild .subtitle{
+    margin-bottom: 40px;
+}
+.contact_item .contact_item-img img{
+    width: 100%;
+}
+.contact_item-subtitle{
+    padding: 0 30px;
+    display: inline-block;
+    width: 50%;
+}
+.contact_item-subtitle h3{
+    font-family: "Colaborate-Thin";
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.contact_item-subtitle .subtitle{
+    margin-bottom: 30px;
+    line-height: 20px;
+    font-size: 12px;
+    line-height: 1.8;
+}
+/* input */
+input{
+    padding: 10px;
+    background-color: rgb(43, 209, 201);
+    color: #ffff;
+    text-transform: capitalize;
+    font-size: 12px;
+    margin: 40px 0;
+    font-weight: 200;
+    outline: none;
+    width: 80px;
+}
+input:hover{
+    background-color: rgb(36, 170, 204);
+    cursor: pointer;
+
+}
+/* Portfolio */
+#portfolio .container h3{
+    font-family: "Colaborate-Thin";
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.portfolio_item {
+    width: 100%;
+}
+.portfolio_item .portfolio_item-img{
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+.portfolio_item .portfolio_item-img img{
+    width: 100%;
+    padding-left: 20px;
+}
+.portfolio_item-subtitle{
+    width: 50%;
+    display: inline-block;
+    padding: 0 30px;
+}
+#portfolio .container h4{
+    font-family: "Colaborate-Thin";
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.portfolio_item-subtitle .subtitle{
+    font-size: 12px;
+}
+.portfolio_item-subtitle input{
+    margin-bottom: 50px;
+}
+
+/* About */
+#about{
+    width: 100%;
+    margin: 50px 0;
+}
+#about .container{
+    background-image: url(../style/images/GalleryDesktopheader.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    height: 300px;
+}
+.container .about_date{
+    float: right;
+    width: 50%;
+    align-content: center;
+    vertical-align: middle;
+}
+.container .about_date h1{
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 120px;
+    margin-top: 35px;
+}
+#about .container .about_subtitle{
+    width: 50%;
+    padding: 30px;   
+    vertical-align: middle;
+}
+#about .container .about_subtitle h3,#about .container .about_subtitle h4{
+    color: #cacaca;
+}
+#about .container .about_subtitle h3{
+    margin-top: 10px;
+}
+#about .container .about_subtitle h4{
+    margin: 15px 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+#about .container .subtitle{
+    font-size: 12px;
+    line-height: 1.5;
+}
+/* services */
+#services{
+    width: 100%;
+    margin: 50px 0;
+}
+#services .container{
+    padding: 0 20px;
+}
+#services .container h1{ 
+    text-align: center;
+    font-size: 24px;
+    font-family: "Colaborate-Thin";
+    font-weight: 900;
+    margin: 40px 0;
+}
+#services .container .services_item{
+    width: 24%;
+    display: inline-block;
+    padding: 5px;
+    vertical-align: top;
+}
+#services .container .services_item img{
+    display: block;
+    margin: 15px auto;
+}
+#services .container .services_item span{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin: 20px 0;
+}
+#services .container .services_item .subtitle{
+    font-size: 12px;
+    font-weight: 1.5;
+    text-align: center;
+}
+/* Recent */
+#recent{
+    width: 100%;
+    margin: 50px auto;
+}
+#recent .container{
+    background-image: url(./images/HomeDesktophtml_row7.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position:center ;
+    text-align: center;
+    box-sizing: border-box;
+}
+#recent .container .recent_item{
+    width: 21%;
+    padding: 50px 0;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+}
+#recent .container .recent_item span{
+    display: block;
+    color: #c3c3c3;
+    font-family: "Colaborate-Thin";
+    text-align: center;
+    margin: 10px;
+}
+#recent .container .recent_item img{
+    height: 50px;
+    display: block;
+    margin: 10px auto;
+}
+#recent .container .recent_item p{
+    color: #c3c3c3;
+    text-align: center;
+    line-height: 1.3;
+    font-size: 14px;
+    word-spacing: 2;
+    font-family: "IRANSans";
+    padding: 5px 40px;
+}
+
+/* recent work */
+#recent_work{
+    width: 100%;
+    margin: 50px auto;
+}
+
+#recent_work .container h1{
+    text-align: center;
+    font-size: 24px;
+    font-family: "Colaborate-Thin";
+    font-weight: 900;
+    margin: 25px 0;
+    text-transform: capitalize;
+}
+#recent_work .container p{
+    text-align: center;
+    font-size: 10px;
+}
+.container .recent_work-item{
+    width: 100%;
+    margin-top: 50px;
+}
+.container .recent_work-item img{
+    width: 25%;
+    display: inline-block;
+    float: left;
+    margin-bottom: 15px;
+    filter: grayscale(100%);
+
+}
+#recent_work .container input{
+    text-align: center;
+    display: block;
+    margin: 40px auto;
+}
+#recent_work .container img:hover{
+    filter: none;
+}
+#recent_work .container .recent_work-customer{
+    width: 100%;
+    height: 350px;
+    background-image: url(./images/HomeTablethtml_row13.png);
+    background-position: center;
+    background-size: cover;
+}
+.recent_work-customer .recent_work-customer--item{
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 60px 0;
+}
+.recent_work-customer .recent_work-customer--item h2{
+    font-size: 18px;
+    font-family: "Colaborate-Thin";
+    color: #fff;
+    text-align: center;
+    margin: 15px 0;
+}
+.recent_work-customer .recent_work-customer--item img{
+    display: block;
+    margin: 10px auto;
+    width: 60px;
+}
+.recent_work-customer .rrecent_work-customer--item p{
+    color: #c4c4c4;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.recent_work-customer .recent_work-customer--item span{
+    display: block;
+    color: #c4c4c4;
+    font-size: 10px;
+    text-align: center;
+}
+.recent_work-customer--item span strong{
+    color: #fff;
+}
+#recent_work .container .recent_work-project{
+    margin-top: 60px;
+}
+#recent_work .container .recent_work-project h1{
+    font-size: 18px;
+    font-family: "Colaborate-Thin";
+    text-align: center;
+    margin: 15px 0;
+}
+#recent_work .container .recent_work-project p{
+    padding: 5px 40px;
+    font-size: 12px;
+}
+/* Footer */
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #111;
+}
+footer h1{
+    font-size: 20px;
+    font-family: "Colaborate-Thin";
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+    text-transform: capitalize;
+}
+footer .socials{
+    text-align: center;
+}
+footer img{
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0;
+}
+footer .subtitle{
+    text-align: center;
+    font-family: "Bitstream Vera Sans";
+    font-size: 10px;
+    text-transform: capitalize;
+}
+footer span{
+    color: #fcfcfc;
+    font-weight: 100;
+}

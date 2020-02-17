@@ -1,0 +1,349 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fcfcfc;
+    font-family: "Arial Rounded MT Bold","Avenir Next";
+
+}
+.contain{
+    width: 70%;
+    height: 100%;
+    margin-left: 50px;
+}
+.container{
+    width: 65%;
+    margin: 0 auto;
+}
+.clear-fix{
+    clear: both;
+}
+/* Header */
+header{
+    width: 100%;
+    height: 45px;
+    background-color: #197FBB;
+    font-family: "Avenir Next";
+
+}
+header p{
+    color: #ece9e9;
+    padding: 15px;
+    font-size: 10px;
+    font-weight: 300;
+    word-spacing: 2px;
+}
+header p:first-child{
+    float: right;
+    display: inline-block;
+}
+header p:last-child{
+    text-transform: uppercase;
+}
+/* navbar */
+nav{
+    width: 100%;
+    height: 60px;
+}
+nav .contain{
+    padding: 5px;
+}
+nav .brand{
+    float: left;
+    display: inline-block;
+}
+nav .brand span{
+    vertical-align: top;
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 24px;
+    font-family: "Avenir Next";
+    font-weight: 600;
+    color: #444;
+}
+nav .menu{
+    float: right;
+
+}
+nav .menu ul li{
+    display: inline-block;
+    padding: 15px;
+}
+nav .menu ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: "Avenir Next";
+    font-weight: 600;
+    color: #444;
+}
+nav .menu ul li a:hover{
+    color: #f00;
+}
+/* main */
+main{
+    width: 100%;
+    height: 300px;
+    background-image: url(./images/HomeDesktopSlide1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+main input:first-child{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+main input:nth-child(2){
+    position: absolute;
+    bottom: 10px;
+    left: 48.5%;
+}
+main input:last-child{
+    position: absolute;
+    bottom: 10px;
+    left: 47%;
+}
+/* Club */
+#club{
+    width: 100%;
+    margin: 50px 0;
+    text-align: center;
+}
+.title{
+    font-size: 18px;
+    font-family: "Avenir Next";
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 10px 0;
+    word-spacing: 3px;
+
+}
+.subtitle{
+    font-size: 11px;
+    font-family: "Avenir Next";
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #444;
+    padding: 0 60px;
+}
+#club .club_item{
+    width: 32%;
+    display: inline-block;
+}
+#club .club_item img{
+    display: block;
+    width: 180px;
+    margin: 0 auto;
+}
+#club .club_item h1 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 550;
+}
+#club .club_item p {
+    padding: 10px;
+    margin: 0;
+    color: #666;
+    font-weight: 450;
+}
+input{
+    width: 100px;
+    padding: 5px;
+    color: #fff;
+    background-color: #197FBB;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 30px;
+}
+input:hover{
+    background-color: rgb(19, 97, 143);
+    cursor: pointer;
+}
+/* services */
+#services{
+    width: 100%;
+    margin-bottom: 50px;
+}
+#services .container{
+    height: 420px;
+    padding: 30px;
+    position: relative;
+}
+#services .services_item{
+    margin-bottom: 70px;
+}
+
+#services .services_item img{
+    height: 40px;
+    display: inline-block;
+}
+#services .services_item .title{
+    display: inline-block;
+    vertical-align: top;
+    color: #333;
+    margin-left: 15px;
+}
+#services .container .subtitle{
+    margin: 0;
+    padding: 0;
+    color: #555;
+    opacity: 1;
+    line-height: 1.8;
+}
+#services .container input{
+    margin: 0;
+    margin-top: 15px;
+}
+.container .transbox{
+    background-image: url(./images/HomeDesktophtml_row2.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+/* Latest */
+#latest{
+    width: 100%;
+    margin: 50px 0;
+}
+#latest .container{
+    height: 230px;
+    background-color: #197FBB;
+    padding: 30px 20px;
+}
+#latest .container h1{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#latest .container .latest_item{
+    width: 44%;
+    display: inline-block;
+    padding-left: 20px;
+}
+#latest .container img{
+    display: inline-block;
+    width: 40px;
+    margin-top: 10px;
+    vertical-align: top;
+}
+#latest .container .latest_item .title{
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+#latest .container .latest_item .subtitle{
+    color: #e6e4e4;
+    font-size: 12px;
+    margin: -10px 0;
+    padding: 0;
+    padding-right: 10px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+/* client */
+#client{
+    width: 100%;
+    margin: 60px 0;
+}
+#client .container{
+    background-color: #E1E1E1;
+}
+#client .container h1{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+}
+#client .container .client_item{
+    width: 49%;
+    display: inline-block;
+    margin: 15px 0;
+}
+.client_item .client_item-escription{
+    display: inline-block;
+    width: 65%;
+    padding: 0 10px;
+}
+#client .container .client_item img{
+    display: inline-block;
+    vertical-align: top;
+    width: 110px;
+    margin: 10px;
+}
+.client_item  .client_item-escription .title{
+    font-size: 11.5px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+.client_item .client_item-escription .subtitle{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    margin-top: 5px;
+}
+/* footer */
+footer{
+    width: 100%;
+    background-color: #197FBB;
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+}
+footer .footer_item{
+    display: inline-block;
+    vertical-align: top;
+    width: 24%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+footer .footer_item .title{
+    color: #FFFCFD;
+    font-size: 12px;
+    vertical-align: top;
+    margin-bottom: 15px;
+}
+footer .subtitle{
+    color: #FFFCFD;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.6;
+} 
+
+footer .footer_item ul li{
+    display: block;
+    line-height: 0.8;
+}
+footer .footer_item ul li a{
+    color: #C9DEE6;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-weight: 400;
+    line-height: 1.6;
+    text-decoration: none;
+}
+footer .footer_item ul li a:hover{
+    color: #f00;
+}

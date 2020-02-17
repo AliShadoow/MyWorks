@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+/* Clear-fix */
+.clear-fix{
+    clear: both;
+}
+/* Contain */
+.contain{
+    width: 80%;
+    margin: 0 auto;
+}
+/* Container */
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+/* header */
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(61, 25, 219);
+}
+body{
+    background: blue;
+}

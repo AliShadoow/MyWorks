@@ -91,6 +91,7 @@ main{
     background-position: center;
     background-size: cover;
     position: relative;
+    margin-bottom: 50px;
 }
 main input:first-child{
     position: absolute;

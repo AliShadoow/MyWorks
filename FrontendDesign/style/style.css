@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.clear-fix{
+    clear: both;
+}
+body{
+    background-color: #fcfcfc;
+}
+/* header */
+header{
+    background-image: url(./img/container.png);
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+header .container .navbar{
+    padding-top: 50px;
+}
+.container .navbar span{
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.container .navbar ul{
+    float: right;
+}
+
+.container .navbar ul li{
+    display: inline-block;
+    padding: 5px;
+}
+.container .navbar ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+}
+.container .navbar ul li a:hover{
+    color: #2BBC9B;
+}
+.container .title{
+    width: 60%;
+    text-align: center;
+    margin: 130px auto;
+}
+.container .title h1{
+    color: #fff;
+    font-family: "Georgia";
+    font-weight: 300;
+    font-size: 50px;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+.container .title h3{
+    color: #fff;
+    font-weight: 300;
+    font-size: 22px;
+    padding: 20px;
+    text-transform: capitalize;
+    letter-spacing: 1.2px;
+    font-family: "Gill Sans";
+}
+.submit{
+    display: block;
+    text-transform: uppercase;
+    background-color: #2BBC9B;
+    width: 200px;
+    padding: 10px;
+    color: #fff;
+    margin: 0 auto;
+    font-family: "Palatino";
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+header .container .submit{
+    position: absolute;
+    left: 42%;
+    bottom: -20px;
+}
+.submit:hover{
+    background-color: rgb(28, 145, 117);
+}
+/* Main */
+main{
+    margin-top: 50px;
+    padding-top:30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+main .container h1{
+    text-transform: uppercase;
+    color: #2BBC9B;
+    font-family: "Gill Sans";
+    font-weight: 600;
+    padding: 20px;
+}
+.subtitle{
+    color: #777;
+    font-family: "Gill Sans";
+    font-weight: 600;
+    line-height: 1.7;
+    padding: 0 70px;
+    margin-top: 20px;
+}
+main .container .main_item{
+    margin-top: 30px;
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 10px;
+}
+main .container .main_item img{
+    display: block;
+    margin: 20px auto;
+}
+main .container .main_item h3{
+    display: block;
+    margin: 20px auto;
+    text-transform: uppercase;
+    color: #2BBC9B;
+    font-family: "Gill Sans";
+    font-weight: 600;
+    font-size: 16px;
+}
+main .container .main_item .subtitle{
+    padding: 0 30px;
+    text-align: justify;
+    color: #888;
+}
+hr{
+    border: 1px solid #999;
+    width: 80%;
+    margin: 50px auto;
+}
+/* work */
+#work{
+    width: 100%;
+    margin-top: 50px;
+}
+#work .container .work_item{
+    width: 43%;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    margin: 30px 0;
+}
+#work .container .work_item:nth-child(even){
+    float: right; 
+}
+#work .container .work_item img{
+    width: 100%;
+    height: 100%;
+    filter: sepia(70%);
+}
+#work .container .work_item ul li{
+    display: block;
+}
+#work .container .work_item a{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    padding: 7px 10px;
+    background-color: #2BBC9B;
+    display: none;
+}
+#work .container .work_item ul{
+    width: 100%;
+    padding: 10px;
+    background-color: #2BBC9B;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+#work .container .work_item ul li{
+    padding: 5px;
+}
+#work .container .work_item ul li:first-child{
+    color: #fff;
+    font-weight: 300;
+    font-size: 22px;
+    text-transform: capitalize;
+    letter-spacing: 1.2px;
+    font-family: "Gill Sans";
+}
+#work .container .work_item ul li:last-child{
+    color: #444;
+    font-family: "Gill Sans";
+    padding: 10px 5px;
+}
+#work .container .work_item img:hover{
+    filter: none;
+}
+#work .container .work_item:hover ul, #work .container .work_item:hover a{
+    display: block;
+}
+#work .container .submit{
+    padding: 10px;
+    margin: 40px auto;
+}
+#work .container .submit img{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 10px;
+}
+/* Contact */
+#contact{
+    width: 100%;
+    margin: 20px 0;
+}
+#contact h1{
+    text-align: center;
+    color: #2BBC9B;
+    font-family: "Gill Sans";
+    font-weight: 400;
+    padding: 20px;
+    font-size: 3rem;
+}
+#contact .container .contact_item{
+    width: 70%;
+    margin: 0 auto;   
+}
+#contact .container .contact_item input{
+    display: inline-block;
+    background-color: #E3ECE9;
+    width: 48%;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 14px;
+    outline-color: #E5E5E5;
+    outline-width: 5px;
+
+
+}
+#contact .container .contact_item input:nth-child(2){
+    float: right;
+}
+#contact .container .contact_item textarea{
+    display: block;
+    width: 100%;
+    background-color: #E3ECE9;
+    padding: 20px;
+    font-size: 14px;
+    outline-color:#E5E5E5;
+    outline-width: 5px;
+    resize: none;
+}
+/* Footer */
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 230px;
+    background-color: #2BBC9B;
+}
+
+footer .footer_item{
+    width: 70%;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+footer .footer_item a img{
+    padding: 20px;
+    background-color: #fff;
+    border: 3px solid #2BBC9B;
+    width: 70px;
+}
+
+footer .footer_item a:first-child{
+    position: absolute;
+    left: 0;
+    top: -30px;
+}
+
+footer .footer_item a:nth-child(2){
+    position: absolute;
+    left: 45%;
+    top: -30px;
+}
+footer .footer_item a:last-child{
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+footer .container p{
+    display: inline-block;
+    color: #fff;
+    font-family: "Gill Sans";
+    font-weight: 300;
+}
+footer .container span{
+    display: inline-block;
+    color: #fff;
+    font-family: "Gill Sans";
+    font-weight: 400;
+    float: right;
+}

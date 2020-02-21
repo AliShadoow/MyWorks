@@ -400,9 +400,8 @@ footer{
     background-color: #323232;
     width: 60%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 35px 20px 20px;
     text-align: center;
-    padding-top: 30px;
 }
 footer .footer_item{
     width: 24%;

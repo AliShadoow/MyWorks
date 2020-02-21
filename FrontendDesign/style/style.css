@@ -87,6 +87,8 @@ header .container .navbar{
     cursor: pointer;
     text-align: center;
     text-decoration: none;
+    outline:rgba(64,184,166,0.5) solid 5px ;
+
 }
 header .container .submit{
     position: absolute;
@@ -160,6 +162,10 @@ hr{
     position: relative;
     margin: 30px 0;
 }
+#work .container .work_item:hover img{
+    filter: none;
+
+}
 #work .container .work_item:nth-child(even){
     float: right; 
 }
@@ -178,6 +184,8 @@ hr{
     padding: 7px 10px;
     background-color: #2BBC9B;
     display: none;
+    box-shadow: 0px 0px 0px 5px rgba(64,184,166,0.5);
+
 }
 #work .container .work_item ul{
     width: 100%;

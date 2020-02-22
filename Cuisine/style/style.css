@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    border: 0;
     box-sizing: border-box;
 }
 :root{
@@ -77,9 +76,7 @@ nav .nav_menu{
 }
 nav .nav_menu ul li{
     display: inline-block;
-    padding: 10px;
-    margin: 0 5px;
-    
+    cursor: pointer;
 }
 nav .nav_menu ul li a{
     text-decoration: none;
@@ -88,13 +85,23 @@ nav .nav_menu ul li a{
     font-size: 10px;
     font-weight: 600;
     text-transform: capitalize;
+    display: inline-block;
+    padding: 13px 15px;
 }
 nav .nav_menu ul li:hover{
     background: var(--color-red);
 }
+
 nav .nav_menu ul li:hover a{
     color: var(--color-white);
 }
+nav .nav_menu .active a{
+    background: var(--color-red);
+    color: var(--color-white);
+
+}
+
+
 /* header */
 header{
     width: 100%;

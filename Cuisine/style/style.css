@@ -463,6 +463,15 @@ footer .footer_socials{
     margin-top: 20px;
     margin-bottom: 40px;
 }
+footer .footer_socials a{
+    display: inline-block;
+}
+footer .footer_socials a img{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
 footer .copy{
     padding: 0;
     text-transform: capitalize;

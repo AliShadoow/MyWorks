@@ -290,7 +290,12 @@ footer .footer_item a img{
     border: 3px solid #2BBC9B;
     width: 70px;
 }
-
+footer .footer_item a:nth-child(3) img{
+    width: 60px;
+}
+footer .footer_item a{
+    display: block;
+}
 footer .footer_item a:first-child{
     position: absolute;
     left: 0;

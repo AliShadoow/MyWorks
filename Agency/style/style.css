@@ -54,20 +54,20 @@ nav span{
     font-size: 14px;
 }
 /* main */
-.main{
+main{
     width: 100%;
     background-image: url("../style/images/HomeDesktopheader.jpg");
     height: 400px;
     background-position: center;
     background-size: cover;
 }
-.main .main_subtitle{
+main .main_subtitle{
     margin: 0 auto;
     padding: 100px;
     text-align: center;
     float: left;
 }
-.main .main_subtitle h1{
+main .main_subtitle h1{
     font-size: 40px;
     color: #fcfcfc;
 }

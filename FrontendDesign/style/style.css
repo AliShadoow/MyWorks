@@ -87,7 +87,6 @@ header .container .navbar{
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    outline:rgba(64,184,166,0.5) solid 5px ;
 
 }
 header .container .submit{
@@ -97,6 +96,8 @@ header .container .submit{
 }
 .submit:hover{
     background-color: rgb(28, 145, 117);
+    outline:rgba(64,184,166,0.5) solid 5px ;
+
 }
 /* Main */
 main{
@@ -184,6 +185,9 @@ hr{
     padding: 7px 10px;
     background-color: #2BBC9B;
     display: none;
+
+}
+#work .container .work_item a:hover{
     box-shadow: 0px 0px 0px 5px rgba(64,184,166,0.5);
 
 }
@@ -195,6 +199,10 @@ hr{
     bottom: 0;
     left: 0;
     display: none;
+}
+#work .container .work_item ul:hover{
+    box-shadow: 0px -5px 0px 0px rgba(64,184,166,0.5);
+
 }
 #work .container .work_item ul li{
     padding: 5px;
